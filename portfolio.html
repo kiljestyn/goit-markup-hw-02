@@ -4,124 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./portfolio.html">WebStudio</a>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+    <header class="header">
+        <nav class="header-navigation">
+            <a class="logo" href="./index.html">
+                <span class="logo-special">
+                Web</span>Studio</a>
+            <ul class="header-menu-list">
+                <li class="header-menu-item">
+                    <a class="header-menu-link link" href="./index.html">
+                    Studio</a></li>
+                <li class="header-menu-item">
+                    <a class="header-menu-link link" href="./portfolio.html">
+                    Portfolio</a></li>
+                <li class="header-menu-item">
+                    <a class="header-menu-link link" href="">
+                    Contacts</a></li>
             </ul>
         </nav>
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <address class="address">
+            <ul class="address-menu-list">
+                <li class="address-menu-item">
+                    <a class="address-menu-link" href="mailto:info@devstudio.com">
+                        info@devstudio.com</a></li>
+                <li class="address-menu-item">
+                    <a class="address-menu-link" href="tel:+110001111111">
+                        +11 (000) 111-11-11</a></li>
             </ul>
         </address>
-    </header> 
-    <main>
-        <h1 hidden>Menu of list</h1>
-        <section>
+    </header>
+
+    <main >
+        <h1 class="visually-hidden">Menu of list</h1>
+        <section class="menu-list">
             <ul>
-                <li><button type="button">All</button></li>
-                <li><button type="button">Web Site</button></li>
-                <li><button type="button">App</button></li>
-                <li><button type="button">Design</button></li>
-                <li><button type="button">Marketing</button></li>
+                <li class="btn-item">
+                    <button type="button" class="menu-btn-special">All</button>
+            </li>
+                <li class="btn-item">
+                    <button type="button" class="menu-btn">Web Site</button></li>
+                <li class="btn-item">
+                    <button type="button" class="menu-btn">App</button></li>
+                <li class="btn-item">
+                    <button type="button" class="menu-btn">Design</button></li>
+                <li class="btn-item">
+                    <button type="button" class="menu-btn">Marketing</button></li>
             </ul>
         </section>
         <section>
-            <ul>
-                
-                    <li>
-                        <a href="">
-                        <img src="./images/service-img-1.jpg" alt="bankApp" width="360" height="300">
-                        <h2>Banking App Interface Concept</h2>
-                        <p>App</p>
+            <h2 class="visually-hidden">Services</h2>
+            <ul class="service-menu-list">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
+                    <img src="./images/service-img-1.jpg" alt="bankApp" width="360" height="300">
+                    <h3 class="service-subtitle">Banking App Interface Concept</h3>
+                    <p class="service-item-text">App</p>
                     </a>
-                    </li>
+                </li>
                 
                 
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-2.jpg" alt="type of payment" width="360" height="300">
-                    <h2>Cashless Payment</h2>
-                    <p>Marketing</p>
+                    <h3 class="service-subtitle">Cashless Payment</h3>
+                    <p class="service-item-text">Marketing</p>
                 </a>
                 </li>
             
             
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-3.jpg" alt="app for meditation" width="360" height="300">
-                    <h2>Meditation App</h2>
-                    <p>App</p>
+                    <h3 class="service-subtitle">Meditation App</h3>
+                    <p class="service-item-text">App</p>
                 </a>
                 </li>
             
             
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-4.jpg" alt="taxi" width="360" height="300">
-                    <h2>Taxi Service</h2>
-                    <p>Marketing</p>
+                    <h3 class="service-subtitle">Taxi Service</h3>
+                    <p class="service-item-text">Marketing</p>
                 </a>
                 </li>
             
             
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-5.jpg" alt="illustrations on phone screen" width="360" height="300">
-                    <h2>Screen Illustrations</h2>
-                    <p>Design</p>
+                    <h3 class="service-subtitle">Screen Illustrations</h3>
+                    <p class="service-item-text">Design</p>
                 </a>
                 </li>
             
             
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-6.jpg" alt="courses" width="360" height="300">
-                    <h2>Online Courses</h2>
-                    <p>Marketing</p>
+                    <h3 class="service-subtitle">Online Courses</h3>
+                    <p class="service-item-text">Marketing</p>
                 </a>
                 </li>
             
             
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-7.jpg" alt="content for inst" width="360" height="300">
-                    <h2>Instagram Stories Concept</h2>
-                    <p>Design</p>
+                    <h3 class="service-subtitle">Instagram Stories Concept</h3>
+                    <p class="service-item-text">Design</p>
                 </a>
                 </li>
             
             
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-8.jpg" alt="fruits&vegetables" width="360" height="300">
-                    <h2>Organic Food</h2>
-                    <p>Web Site</p>
+                    <h3 class="service-subtitle">Organic Food</h3>
+                    <p class="service-item-text">Web Site</p>
                 </a>
                 </li>
             
             
-                <li>
-                    <a href="">
+                <li class="service-menu-item">
+                    <a class="service-link" href="">
                     <img src="./images/service-img-9.jpg" alt="lateArt" width="360" height="300">
-                    <h2>Fresh Coffee</h2>
-                    <p>Web Site</p>
+                    <h3 class="service-subtitle">Fresh Coffee</h3>
+                    <p class="service-item-text">Web Site</p>
                 </a>
                 </li>
-            
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="./portfolio.html">WebStudio</a>
-        <p>
+
+    <footer class="footer">
+        <a class="logo" href="./index.html">
+            <span class="logo-special">
+            Web</span><span class="logo-second-color">Studio</span></a>
+        <p class="footer-text">
             Increase the flow of customers and sales for your business with digital 
             marketing & growth solutions.
         </p>
