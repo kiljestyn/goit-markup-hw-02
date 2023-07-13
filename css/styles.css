@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-text-cl);
-    background-color: var(--white-cll);
+    background-color: var(--white-cl);
 }
 :root{
 --brand-text-cl: #434455;
@@ -32,29 +32,27 @@ background:var(--white-cl);
 }
 
 .logo {
-font-family: Raleway, sans-serif;
-display: inline-flex;
-height: 24px;
-align-items: center;
-text-decoration: none;
-color: var(--navyblue-cl);
-font-size: 18px;
-font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.54px;
-text-transform: uppercase;
-}
-
-.logo-special {
-color: var(--iris-cl);
+    color: var(--iris-cl);
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+font-family: Raleway, sans-serif;
+text-decoration: none;
+
+}
+
+.logo-special {
+    color: var(--navyblue-cl);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 .header-menu-list {
 color: var(--navyblue-cl);
@@ -77,28 +75,31 @@ color: var(--pseudo-btn-cl);
 }
 
 .header-menu-link {
-color: inherit;
+color: var(--navyblue-cl);
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-
+.list {
+    list-style: none;
+}
 .address-menu-list {
 list-style-type: none;
-text-align: right;
+font-style: normal;
 }
 
 .address-menu-link {
 text-decoration: none;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--brand-text-cl);
 }
 .order {
 flex-shrink: 0;
 background: var(--navyblue-cl);
 }
 .order-title {
-display: flex;
-flex-direction: column;
-flex-shrink: 0;
 color: var(--white-cl);
 text-align: center;
 font-size: 56px;
@@ -109,16 +110,13 @@ letter-spacing: 0.02em;
 
 .order-btn {
 font-family: inherit;
-display: inline-flex;
-align-items: flex-start;
-gap: 10px;
-border-radius: 4px;
 color: var(--white-cl);
 background: var(--iris-cl);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+cursor: pointer;
 }
 
 .paragraph-subtitle {
@@ -140,14 +138,11 @@ letter-spacing: 0.02em;
 
 }
 .doing-menu-item {
-display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
+
 }
 
 .doing-title {
 color: var(--description-cl);
-text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
@@ -159,27 +154,19 @@ text-transform: capitalize;
 }
 .team-title {
 color: var(--description-cl);
-text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.25;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
 .team-menu-item {
-display: inline-flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 32px;
-border-radius: 0px 0px 4px 4px;
 background: var(--white-cl);
 }
 
 .team-subtitle {
 color: var(--description-cl);
-text-align: center;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -198,51 +185,35 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.logo-second-color {
-    color: var(--second-light-cl);
+.logo-second-special {
+color: var(--second-light-cl);
 }
 
 .menu-btn-special {
-border-radius: 4px;
 background: var(--pseudo-btn-cl);
 color: var(--white-cl);
-text-align: center;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-display: flex;
-align-items: flex-start;
 cursor: pointer;
 }
 .menu-btn {
-border-radius: 4px;
-border: var(--light-cl);
 color: var(--iris-cl);
-text-align: center;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 display: flex;
-justify-content: center;
-align-items: center;
 background: var(--second-light-cl);
 cursor: pointer;
 }
 
 .btn-item {
-display: flex;
-align-items: flex-start;
 font-family: inherit;
 }
 
 .service-menu-item {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
-flex-shrink: 0;
 background: var(--white-cl);
 }
 
