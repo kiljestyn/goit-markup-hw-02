@@ -51,10 +51,11 @@ letter-spacing: 0.02em;
 list-style-type: none;
 }
 
-.link:hover,.link:focus,
-.service-btn:hover,
-.service-btn:focus {
+.link:hover,.link:focus {
 color: var(--pseudo-btn-cl);
+}
+.service-btn:hover, .service-btn:focus {
+color: var(--pseudo-btn-cl); 
 }
 
 .header-menu-item {
@@ -204,6 +205,14 @@ cursor: pointer;
 font-family: inherit;
 }
 
+.menu-btn:hover {
+color: var(--white-cl);
+background-color: var(--pseudo-btn-cl);
+}
+.menu-btn:focus {
+    color: var(--white-cl);
+    background-color: var(--pseudo-btn-cl);
+}
 .btn-item {
 
 }
