@@ -51,11 +51,10 @@ letter-spacing: 0.02em;
 list-style-type: none;
 }
 
-.link:hover,.link:focus {
+.link:hover,.link:focus,
+.service-btn:hover,
+.service-btn:focus {
 color: var(--pseudo-btn-cl);
-}
-.order-btn:hover, .order-btn:focus {
-color: var(--pseudo-btn-cl); 
 }
 
 .header-menu-item {
