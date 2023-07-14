@@ -55,7 +55,7 @@ list-style-type: none;
 color: var(--pseudo-btn-cl);
 }
 .service-btn:hover, .service-btn:focus {
-color: var(--pseudo-btn-cl); 
+background-color: var(--pseudo-btn-cl); 
 }
 
 .header-menu-item {
