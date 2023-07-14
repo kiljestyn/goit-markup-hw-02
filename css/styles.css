@@ -14,19 +14,7 @@ body {
 --description-cl: #2E2F42;
 
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 .header {
 background:var(--white-cl);
 }
@@ -96,7 +84,6 @@ letter-spacing: 0.02em;
 color: var(--brand-text-cl);
 }
 .order {
-flex-shrink: 0;
 background: var(--navyblue-cl);
 }
 .order-title {
